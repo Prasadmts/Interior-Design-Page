@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 50px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: snow;
+    color: dimgrey;
+}
+
+/*  nav-bar */
+.nav_bar {
+    background-color: #7fa5a5;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* heading & sub-heading */
+.head{
+    font-size: 100px;
+    padding: 0px 100px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+}
+
+.sub-head {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Image  */
+img{
+    width: 100%;
+    margin: 50px 0px;
+}
+
+/* contents */
+.contents {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap:70px;
+    height: 750px;
+    
+}
+
+/* ---------------------- para content */
+.para-content {
+    color: #7fa5a5;
+}
+
+.para-content > h2 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 300px;
+    margin: 0px;
+}
+
+.para-content > h3 {
+    font-size: 22px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.para-content > p {
+    color: dimgray;
+    font-size: 22px;
+    
+}
+
+/* ----------------------- aside content */
+.aside-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #7fa5a5;
+    color: snow;
+    padding-left: 50px;
+    padding-right: 180px;
+}
+
+.aside-content > p {
+    font-size: 26px;
+    font-style: italic;
+    width: 180px;
+}
+
+.aside-content > h3 {
+    font-size: 26px;
+}
